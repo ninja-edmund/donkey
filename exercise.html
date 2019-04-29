@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script>
+        let num = window.prompt('Enter a number: ')
+
+        if (num % 5 == 0 && num % 3 == 0) {
+            alert('FizzBuzz') 
+        } else if (num % 3 && num % 7 !== 0) {
+            alert('Fizz')
+        } else if (num % 5 == 0){
+            alert('Buzz')
+        } else if (num % 7 == 0) {
+            alert('Woof')
+        } else {
+            alert(num)
+        }
+
+
+    </script> -->
+
+    <!-- <script>
+
+    let myNumber = window.prompt('Enter a number: ')
+    
+    function triangle(myNumber) {
+        let star = '*'
+        for (let i = 0; i <= myNumber; i++) {
+            console.log(star.repeat(i))
+        }
+
+    }
+    triangle(myNumber)
+    
+    </script> -->
+
+    <!-- <script>
+        const numbers = [
+    Math.floor(Math.random() * 100) + 1,
+    Math.floor(Math.random() * 100) + 1,
+    Math.floor(Math.random() * 100) + 1,
+    Math.floor(Math.random() * 100) + 1,
+    Math.floor(Math.random() * 100) + 1
+  ]
+        let sum = 0
+        for (i=0;i < numbers.length;i++) {
+            sum = sum + numbers[i]
+            if (numbers[i] % 2 ==0) {
+                document.write(numbers[i] + ' - Even')
+            } else
+                document.write(numbers[i] + ' - Odd')
+            document.write('<br/>')
+        }
+        document.write(sum)
+
+    </script> -->
+
+    <script>
+        const numbers = [
+            Math.floor(Math.random() * 100) + 1,
+            Math.floor(Math.random() * 100) + 1,
+            Math.floor(Math.random() * 100) + 1,
+            Math.floor(Math.random() * 100) + 1,
+            Math.floor(Math.random() * 100) + 1,
+        ]
+
+        const add = (a,b) => a + b
+        const sum = numbers.reduce(add)
+        document.write(sum)
+    </script>
+</body>
+</html>
